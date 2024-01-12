@@ -4,7 +4,7 @@
 <!--<head>
 <link href='https://www.blogger.com/static/v1/widgets/3566091532-css_bundle_v2.css' rel='stylesheet' type='text/css'/>
 -->
-
+<link href="./1.3.0/css/line-awesome.min.css" rel="stylesheet"/>
 <head>
   <meta content='width=device-width, initial-scale=1.0' name='viewport' />
   <title>
@@ -39,7 +39,12 @@
 
 </head>
 
-<body>
+<body id="big-body">
+  <audio loop id="myAudio" autoplay>
+    <source id="zzz" src="./test.mp3" type="audio/mpeg" />     
+  </audio>
+  <button id="playButton" class="toggleAudio"><i style="font-size: 22px;" id="icon-volume" class="las la-volume-up"></i></button>
+
   <!-- BANNER -->
   <section class='section-banner' id='banner'>
     <img alt='' class='banner-bg'
@@ -282,14 +287,50 @@
     });
   </script>
   <script type='text/javascript' src="./animation.js"></script>
+  <script>
+    const trigger = (el, etype, custom) => {
+      const evt = custom ?? new Event( etype, { bubbles: true } );
+      el.dispatchEvent( evt );
+    };
+    $(document).ready(function () {
+      document.getElementById('playButton').addEventListener('click', function() {
+          var audio = document.getElementById('myAudio');
+          if (audio.paused) {
+            audio.play();
+            $('#playButton i').removeClass().addClass('las la-volume-mute');
+          } else {
+            audio.pause();
+            $('#playButton i').removeClass().addClass('las la-volume-up');
+          }
+      });
+      window.triggerScroll = false;
+
+      window.addEventListener('click', function () {
+        if (window.triggerScroll) return;
+        var audio = document.getElementById('myAudio');
+        audio.play();
+      })
+
+      setTimeout(() => {
+        trigger(document.getElementById('big-body'), 'click')
+      }, 500);
+
+      // setTimeout(() => {
+      //   var audio = document.getElementById('myAudio');
+      //   audio.play();
+        
+      // }, 500);
+
+    });
+  </script>
 
   /*
-  <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/577263412-widgets.js"></script> */
+  <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/577263412-widgets.js"></script? */
   /*
   <script type='text/javascript'>
     window['__wavt'] = 'AOuZoY4KiaAlePm69Tiv2T-aIsvm8X6IBw:1704863669595'; _WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6012698706229581444', '//thiepcuoistylehiendai.blogspot.com/', '6012698706229581444');
     _WidgetManager._SetDataContext([{ 'name': 'blog', 'data': { 'blogId': '6012698706229581444', 'title': 'Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i', 'url': 'https://thiepcuoistylehiendai.blogspot.com/', 'canonicalUrl': 'https://thiepcuoistylehiendai.blogspot.com/', 'homepageUrl': 'https://thiepcuoistylehiendai.blogspot.com/', 'searchUrl': 'https://thiepcuoistylehiendai.blogspot.com/search', 'canonicalHomepageUrl': 'https://thiepcuoistylehiendai.blogspot.com/', 'blogspotFaviconUrl': 'https://thiepcuoistylehiendai.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'vi', 'localeUnderscoreDelimited': 'vi', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': true, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i - Atom\x22 href\x3d\x22https://thiepcuoistylehiendai.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i - RSS\x22 href\x3d\x22https://thiepcuoistylehiendai.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/6012698706229581444/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/01812123739087626221\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/46691d540313b8d7', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'interstitialAccepted': false, 'sharing': { 'platforms': [{ 'name': 'Nh\u1eadn \u0111\u01b0\u1eddng li\xean k\u1ebft', 'key': 'link', 'shareMessage': 'Nh\u1eadn \u0111\u01b0\u1eddng li\xean k\u1ebft', 'target': '' }, { 'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Chia s\u1ebb v\u1edbi Facebook', 'target': 'facebook' }, { 'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog' }, { 'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Chia s\u1ebb v\u1edbi Twitter', 'target': 'twitter' }, { 'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Chia s\u1ebb v\u1edbi Pinterest', 'target': 'pinterest' }, { 'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email' }], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27vi\x27};\x3c/script\x3e' }, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': '\u0110\u1ecdc th\xeam', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i' } }, { 'name': 'features', 'data': {} }, { 'name': 'messages', 'data': { 'edit': 'Ch\u1ec9nh s\u1eeda', 'linkCopiedToClipboard': '\u0110\xe3 sao ch\xe9p \u0111\u01b0\u1eddng li\xean k\u1ebft v\xe0o b\u1ea3ng nh\u1edb t\u1ea1m!', 'ok': 'Ok', 'postLink': 'Li\xean k\u1ebft b\xe0i \u0111\u0103ng' } }, { 'name': 'template', 'data': { 'name': 'custom', 'localizedName': 'T\xf9y ch\u1ec9nh', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true } }, { 'name': 'view', 'data': { 'classic': { 'name': 'classic', 'url': '?view\x3dclassic' }, 'flipcard': { 'name': 'flipcard', 'url': '?view\x3dflipcard' }, 'magazine': { 'name': 'magazine', 'url': '?view\x3dmagazine' }, 'mosaic': { 'name': 'mosaic', 'url': '?view\x3dmosaic' }, 'sidebar': { 'name': 'sidebar', 'url': '?view\x3dsidebar' }, 'snapshot': { 'name': 'snapshot', 'url': '?view\x3dsnapshot' }, 'timeslide': { 'name': 'timeslide', 'url': '?view\x3dtimeslide' }, 'isMobile': false, 'title': 'Thi\u1ec7p c\u01b0\u1edbi style hi\u1ec7n \u0111\u1ea1i', 'description': '', 'url': 'https://thiepcuoistylehiendai.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false } }]);
-  </script> */
+  </script?> */
 </body>
 
 </html>
