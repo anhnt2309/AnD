@@ -41,7 +41,7 @@
 
 <body id="big-body">
   <audio loop id="myAudio" autoplay>
-    <source id="zzz" src="./test.mp3" type="audio/mpeg" />     
+    <source src="./background-audio.mp3" type="audio/mpeg" />     
   </audio>
   <button id="playButton" class="toggleAudio"><i style="font-size: 22px;" id="icon-volume" class="las la-volume-up"></i></button>
 
@@ -308,13 +308,12 @@
       window.addEventListener('click', function () {
         if (window.triggerScroll) return;
         var audio = document.getElementById('myAudio');
-        audio.play();
+        if (audio.paused) {
+          audio.play();
+          $('#playButton i').removeClass().addClass('las la-volume-mute');
+        }
+        window.triggerScroll = true;
       })
-
-      setTimeout(() => {
-        trigger(document.getElementById('big-body'), 'click')
-      }, 500);
-
       // setTimeout(() => {
       //   var audio = document.getElementById('myAudio');
       //   audio.play();
