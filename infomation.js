@@ -69,7 +69,7 @@ var album = [
     },
     {
         "link_anh" : 
-        "./images/album/IMG_2898.JPG" 
+        "./images/album/IMG_9100.JPG" 
     },
     {
         "link_anh" : 
@@ -81,7 +81,7 @@ var album = [
     },
     {
         "link_anh" : 
-        "./images/album/IMG_9100.JPG" 
+        "./images/album/IMG_2898.JPG" 
     },
     {
         "link_anh" : 
@@ -101,6 +101,14 @@ var album = [
     },
     {
         "link_anh" : 
+        "./images/album/IMG_9834.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_9838.JPG" 
+    },
+    {
+        "link_anh" : 
         "./images/album/0K9A8228 2.JPG" 
     },
     {
@@ -114,6 +122,10 @@ var album = [
     {
         "link_anh" : 
         "./images/album/IMG_2894.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/wedding/IMG_2867.JPG" 
     },
     {
         "link_anh" : 
