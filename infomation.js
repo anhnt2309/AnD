@@ -1,24 +1,24 @@
 //<![CDATA[
 // THÔNG TIN CÔ DÂU CHÚ RỂ
 var info_chure = {
-    "ten" : "Thành Trung" ,
-    "ngay_sinh" : "24.03.1994" ,
-    "bo" : "Ông : Lương Văn Thông" ,
-    "me" : "Bà : Lã Thị Thanh Vân" ,
+    "ten" : "Tuấn Anh" ,
+    "ngay_sinh" : "23.09.1996" ,
+    "bo" : "Ông : Nguyễn Văn Lài" ,
+    "me" : "Bà : Phạm Thị Tám" ,
     "dia_chi" : "Số... Đường.... TP....." ,
     "phone" : "Số... Đường.... TP....." ,
     "link_anh" : "../img/groom-img.jpg",
-    "mo_ta" : "Tên thật là Đặng Thành Trung hay trên mạng xã hội được biết đến cái tên Shen, hiện đang kinh doanh online. Chú rể còn được biết đến như 1 KOL / Influencer với câu nói  'Đưa tay đây nào, mãi bên nhau bạn nhé!' và nhiều clip hài/ trolls trên các kênh mạng xã hội. Chú rể là người cởi mở, thân thiện, giao tiếp tốt và thuộc tuýp người hướng ngoại.",
+    "mo_ta" : "The groom is the epitome of optimism and energy, a beacon of light and positivity to everyone around him. His kindness knows no limits, touching the lives of all he meets with a warmth that is both genuine and infectious. It's no wonder that children are drawn to him, finding in his presence a playful companion and a patient listener. He has a unique way of making everyone feel valued and heard, creating an atmosphere of joy and laughter wherever he goes. His optimistic outlook on life and boundless energy make him not just a beloved figure among adults but a hero in the eyes of the kids who adore hanging out with him.",
 }
 var info_codau = {
-    "ten" : "Thanh Hằng" ,
-    "ngay_sinh" : "14.02.1998" ,
-    "bo" : "Ông : Đặng Công Đằng" ,
-    "me" : "Bà : Phạm Thị Loan" ,
+    "ten" : "Ngọc Dung" ,
+    "ngay_sinh" : "25.07.1996" ,
+    "bo" : "Ông : Nguyễn Xuân Diên" ,
+    "me" : "Bà : Thái Thị Hương" ,
     "dia_chi" : "Số... Đường.... TP....." ,
     "phone" : "(+84)902618766" ,
     "link_anh" : "../img/bride-img.jpg",
-    "mo_ta" : "Kinh doanh trong lĩnh vực làm đẹp, chăm sóc sức khỏe. Khác với chú rể, cô dâu thuộc tuýp người hướng nội, đi du học từ nhỏ nên không có nhiều bạn bè. Ngoài ra, cô dâu còn là giám đốc điều hành trong chuỗi khách sạn 4 sao của gia đình. Sở thích nấu nướng và đi du lịch cùng gia đình.",
+    "mo_ta" : "The bride, with her soft and gentle demeanor, exudes an aura of innocence that captivates all who know her. Her love for the sunshine mirrors her bright and warm personality, drawing people towards her like moths to a flame. She harbors a deep affection for the cozy, serene atmosphere of Korean styled coffee shops, where the subtle scent of coffee and the soft hum of conversation fill the air. This love for a calm and comforting vibe reflects in her everyday life, making her presence soothing and heartwarming to those around her.",
    
 }
 
@@ -30,18 +30,18 @@ var invitation = {
     "dia_diem" : "LUXURY PALACE" ,
     "dia_chi" : "171 Nguyễn Thái Sơn, Phường 7, Gò Vấp, TP.Hồ Chí Minh" ,
     "thu" : "CHỦ NHẬT" ,
-    "ngay" : "22" ,
-    "thang" : "12" ,
-    "nam" : "2023" ,
+    "ngay" : "02" ,
+    "thang" : "03" ,
+    "nam" : "2024" ,
     "gio" : "17H30" ,
     "ngay_am" : "Nhằm ngày ......." ,
 }
 // CÂU CHUYỆN TÌNH YÊU
 var story = {
-    "lan_dau_gap": "08.02.2023",
-    "hen_ho": "12.04.2023",
-    "le_dinh_hon": "24.10.2023",
-    "le_thanh_hon": "12.12.2023",
+    "lan_dau_gap": "07.2007",
+    "hen_ho": "01.05.2014",
+    "le_dinh_hon": "22.04.2023",
+    "le_thanh_hon": "02.03.2024",
 }
 
 // ALBUM KỈ NIỆM
@@ -78,14 +78,14 @@ var invitationCard = [
     {
        "tieude" : "Nhà Trai",
        "link_anh_thiep" : "https://app.thesimple.vn/uploads/contact/adminbh/654379f934cd8-bao-hy.jpg",
-       "link_ban_do" : "https://maps.app.goo.gl/TGDAuYaEhoW6zH97A",
-       "phone" : "(+84)981742365",
+       "link_ban_do" : "https://maps.app.goo.gl/c9Z38MwgJLpkNYSn8",
+       "phone" : "(+84)918135516",
     },
     {
         "tieude" : "Nhà Gái",
         "link_anh_thiep" : "https://app.thesimple.vn/uploads/contact/adminbh/654379f934cd8-bao-hy.jpg",
-        "link_ban_do" : "https://maps.app.goo.gl/TGDAuYaEhoW6zH97A",
-        "phone" : "(+84)981742365",
+        "link_ban_do" : "https://maps.app.goo.gl/c9Z38MwgJLpkNYSn8",
+        "phone" : "(+84)973192799",
      },
     
 ]
