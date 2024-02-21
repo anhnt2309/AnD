@@ -227,7 +227,7 @@ position: absolute;
 width: 100%;
 height: 100%;
 background-color:var(--overlay);
-opacity: .5;
+opacity: .3;
 z-index: -1;
 }
 .blur {
@@ -367,6 +367,9 @@ background-color: var(--text-white);
 transition: .5s;
 filter: grayscale();
 -webkit-filter: grayscale();
+width: 100%;
+object-fit: cover;
+height: 100%;
 }
 .about-media:hover img {
 filter: none;

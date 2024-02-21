@@ -48,29 +48,33 @@ var story = {
 // ALBUM KỈ NIỆM
 var album = [
     {
-       "link_anh" : 
-       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3wJdaGpI6MpPxZk7vfnMtNIdfKmHIXo40Snp4oID4bcbOYvmRyYE9YZ_VvRtpwEb8B8MP8CUC0f5h3PEDb4-tdH2H6TBw0u_ua1JijkruR46zYfS9mHJs3cYiwBij2reAQjlwTWG6MoxyL6rnYGkb1zCKCPFgQHcKmt1mE1QFT1KSXhnAKf6ha57p8oTx/w480-h640/img8.jpg"
+        "link_anh" : 
+        "./images/wedding/IMG_2866.JPG"
     },
     {
         "link_anh" : 
-        " https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNkn3tEue6FMwKgQ_GP99R_WNdH_xTWxwlbZFF3QPk7x6l4QgEJWzgePZR-cyk0PL2w6ucoQrEJkdGOEdFme-UFxxFlMDk8dLrCNhilJsv2bdMk23L8r8oXgFIiu7hKQVFP0-QYcSv4Ccj5rcSwgfLMLa69_wDzkySPQcMBQ5g8lL_a1kBcny8oYXOtSx2/w480-h640/img7.jpg "
-     },
-     {
+        "./images/wedding/IMG_2867.JPG"
+    },
+    // {
+    //     "link_anh" :
+    //     "./images/wedding/IMG_2868.JPG" 
+    // },
+    {
         "link_anh" : 
-        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtaXxVxomnO3dlEDePQNeimMelL0eapOgcYjgnpntJLYg0LZ-u1Noq82Uw2h8xTGmtgVBljlulcsxifH444x8uu8SXfIZENT1-AMhMJqEQkzLXzz4fQC0jO5mPRjGlgAWQnq26e6pNoQ8Tx4XmdH1aoXT58_ygpBpx7DZ9ZomzAdA5SsHTdL0TyVxBecJ1/w480-h640/img6.jpg"
-     },
-     {
+        "./images/wedding/IMG_2869.JPG" 
+    },
+    {
         "link_anh" : 
-        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaw0rnIp3CSkcH_HmzX72Vrx9iiCnmpTi_xjx4-3RemGqOKmL5ekDJSo-ozf5Mk1t80df3BeU-jm5gQE7QVwq8NnSslSUF86P5NxH4arm5nACJjjTjZrbjdUcI0gJN45LfvOoSWlxMsiRereS2-ofi3KvE7pZSzwFA2MQNQIwoTds0uEpKx0ShEVHancAx/w480-h640/img5.jpg"
-     },
-     {
+        "./images/wedding/IMG_2883.JPG" 
+    },
+    {
         "link_anh" : 
-        " https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-RpAmiNinvTrW3fFRg6wh_nP64qlGtPyzTaSw6uE14CEbEFsMBYNr2ezp3_1RpUNHRix8mhtPZzagAWFVHI2k9ksZ_7bD4ITgnc8la2OLyLu6v44zjZs7ufNYndC8rOdngNy1hm8CG_iHZ8YIB83eVaSTL_GOQxC-M5QRpdYMF2RSVg-wEF8iDBfUynsf/w480-h640/img4.jpg "
-     },
-     {
+        "./images/wedding/IMG_2884.JPG" 
+    },
+    {
         "link_anh" : 
-        " https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnMZCwpNrXNHPCHyjt3rYLd_y_Sk8AbngfADd71mVOrVTChTvzkNTVwjxC1rzqzJfr5kWS7TQKKPZnxICRUQlisS_0flBv91tRFTO3-sUrwazLaSxkRxprfl_uojpqVrU90R2PRmLtl9sYflwG9JU7f143urWQvyF0w0PagTZZeUa5GFDC_TC__pyTEXv/w480-h640/img3.jpg"
-     },
+        "./images/wedding/IMG_2887.JPG" 
+    },
     
 ]
 
@@ -100,8 +104,8 @@ var media ={
     // ẢNH CHẶN ĐƯỜNG ĐÃ QUA
     "love_story" : "https://usbdientu.s3.ap-southeast-1.amazonaws.com/huyvo/anh-cuoi-dep-yody-vn.webp" ,
     // ẢNH ĐẾM NGƯỢC THỜI GIAN
-    "anh_countdown" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtaXxVxomnO3dlEDePQNeimMelL0eapOgcYjgnpntJLYg0LZ-u1Noq82Uw2h8xTGmtgVBljlulcsxifH444x8uu8SXfIZENT1-AMhMJqEQkzLXzz4fQC0jO5mPRjGlgAWQnq26e6pNoQ8Tx4XmdH1aoXT58_ygpBpx7DZ9ZomzAdA5SsHTdL0TyVxBecJ1/w480-h640/img6.jpg" ,
+    "anh_countdown" : "./images/wedding/0K9A8410.JPG" ,
     // ẢNH THANKYOU
-    "anh_thankyou" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaw0rnIp3CSkcH_HmzX72Vrx9iiCnmpTi_xjx4-3RemGqOKmL5ekDJSo-ozf5Mk1t80df3BeU-jm5gQE7QVwq8NnSslSUF86P5NxH4arm5nACJjjTjZrbjdUcI0gJN45LfvOoSWlxMsiRereS2-ofi3KvE7pZSzwFA2MQNQIwoTds0uEpKx0ShEVHancAx/w480-h640/img5.jpg" ,
+    "anh_thankyou" : "./images/wedding/0K9A7376.JPG" ,
 }
 //]]>
