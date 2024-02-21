@@ -56,12 +56,15 @@
           mapUrl = invitationCard[s].link_ban_do
           invitationImg = invitationCard[s].link_anh_thiep
           invitationPhone = invitationCard[s].phone
-  
-          listInvitation = ' <div class="invitation-card"> <div class="invitation-media"> <img src="' + invitationImg + '" alt=""> </div> <div class="invitation-body"> <h3 class="invitation-title">' + title + '</h3> <div class="group-button"> <a href="tel:' + invitationPhone + '" class="phone btn btn-dark btn-rouded"> <i class="bx bxs-phone"></i> </a> <a href="' + mapUrl + '" target="_blank" class="btn btn-dark btn-rouded map"> <i class="bx bxs-map" ></i> </a> <button data-fancybox data-src="#gift-box" class="gift btn btn-dark btn-rouded"> <i class="bx bxs-gift" ></i> </button> </div> </div> </div>'
+          
+          let giftId = invitationCard[s].is_broom ? "gift-box-groom" : "gift-box-bride" 
+          listInvitation = ' <div class="invitation-card"> <div class="invitation-media"> <img src="' + invitationImg + '" alt=""> </div> <div class="invitation-body"> <h3 class="invitation-title">' + title + '</h3> <div class="group-button"> <a href="tel:' + invitationPhone + '" class="phone btn btn-dark btn-rouded"> <i class="bx bxs-phone"></i> </a> <a href="' + mapUrl + '" target="_blank" class="btn btn-dark btn-rouded map"> <i class="bx bxs-map" ></i> </a> <button data-fancybox data-src="#'+ giftId +'" class="gift btn btn-dark btn-rouded"> <i class="bx bxs-gift" ></i> </button> </div> </div> </div>'
           $('.invitation').append(listInvitation)
         }
         //GỬI QUÀ MOMO
-        $('.mono_bank').attr('src', qr_momo)
+        $('.mono_bank_groom').attr('src', qr_momo_groom)
+        $('.mono_bank_bride').attr('src', qr_momo_bride)
+        
       });
   
       // COUNTDOWN

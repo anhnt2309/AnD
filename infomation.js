@@ -23,7 +23,8 @@ var info_codau = {
 }
 
 //ẢNH MÃ QR MOMO 
-    qr_momo = "https://homepage.momocdn.net/blogscontents/momo-upload-api-220630163212-637922035327290078.jpg"
+    qr_momo_groom = "./images/groom_momo_qr.jpg"
+    qr_momo_bride = "./images/bride_momo_qr.jpg"
 
 // THÔNG TIN THIỆP CHÍNH
 var invitation = {
@@ -76,17 +77,19 @@ var album = [
 // DANH SÁCH THIỆP 
 var invitationCard = [
     {
-       "tieude" : "Nhà Trai",
-       "link_anh_thiep" : "https://app.thesimple.vn/uploads/contact/adminbh/654379f934cd8-bao-hy.jpg",
-       "link_ban_do" : "https://maps.app.goo.gl/c9Z38MwgJLpkNYSn8",
-       "phone" : "(+84)918135516",
+        "is_broom": true,
+        "tieude" : "Groom",
+        "link_anh_thiep" : "./images/invitation.png",
+        "link_ban_do" : "https://maps.app.goo.gl/c9Z38MwgJLpkNYSn8",
+        "phone" : "(+84)918135516",
     },
     {
-        "tieude" : "Nhà Gái",
-        "link_anh_thiep" : "https://app.thesimple.vn/uploads/contact/adminbh/654379f934cd8-bao-hy.jpg",
+        "is_broom": false,
+        "tieude" : "Bride",
+        "link_anh_thiep" : "./images/invitation.png",
         "link_ban_do" : "https://maps.app.goo.gl/c9Z38MwgJLpkNYSn8",
         "phone" : "(+84)973192799",
-     },
+    },
     
 ]
 
