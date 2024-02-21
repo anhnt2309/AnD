@@ -43,7 +43,7 @@
   <audio loop id="myAudio" autoplay>
     <source src="./background-audio.mp3" type="audio/mpeg" />     
   </audio>
-  <button id="playButton" class="toggleAudio"><i style="font-size: 22px;" id="icon-volume" class="las la-volume-up"></i></button>
+  <button id="playButton" class="toggleAudio"><i style="font-size: 22px;" id="icon-volume" class="las la-volume-mute"></i></button>
 
   <!-- BANNER -->
   <section class='section-banner' id='banner'>
@@ -299,10 +299,10 @@
           var audio = document.getElementById('myAudio');
           if (audio.paused) {
             audio.play();
-            $('#playButton i').removeClass().addClass('las la-volume-mute');
+            $('#playButton i').removeClass().addClass('las la-volume-up');
           } else {
             audio.pause();
-            $('#playButton i').removeClass().addClass('las la-volume-up');
+            $('#playButton i').removeClass().addClass('las la-volume-mute');
           }
       });
       window.triggerScroll = false;
@@ -312,7 +312,7 @@
         var audio = document.getElementById('myAudio');
         if (audio.paused) {
           audio.play();
-          $('#playButton i').removeClass().addClass('las la-volume-mute');
+          $('#playButton i').removeClass().addClass('las la-volume-up');
         }
         window.triggerScroll = true;
       })

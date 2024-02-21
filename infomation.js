@@ -69,15 +69,15 @@ var album = [
     },
     {
         "link_anh" : 
-        "./images/album/IMG_2869 2.JPG" 
-    },
-    {
-        "link_anh" : 
         "./images/album/IMG_2898.JPG" 
     },
     {
         "link_anh" : 
         "./images/album/IMG_1028.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_2869 2.JPG" 
     },
     {
         "link_anh" : 
