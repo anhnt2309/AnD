@@ -49,32 +49,76 @@ var story = {
 var album = [
     {
         "link_anh" : 
-        "./images/wedding/IMG_2866.JPG"
+        "./images/album/IMG_2866 2.JPG"
     },
     {
         "link_anh" : 
-        "./images/wedding/IMG_2867.JPG"
+        "./images/album/IMG_9093.JPG"
     },
-    // {
-    //     "link_anh" :
-    //     "./images/wedding/IMG_2868.JPG" 
-    // },
     {
-        "link_anh" : 
-        "./images/wedding/IMG_2869.JPG" 
+        "link_anh" :
+        "./images/album/IMG_2883 2.JPG" 
     },
     {
         "link_anh" : 
-        "./images/wedding/IMG_2883.JPG" 
+        "./images/album/IMG_9101.JPG" 
     },
     {
         "link_anh" : 
-        "./images/wedding/IMG_2884.JPG" 
+        "./images/album/IMG_2887 2.JPG" 
     },
     {
         "link_anh" : 
-        "./images/wedding/IMG_2887.JPG" 
+        "./images/album/IMG_2869 2.JPG" 
     },
+    {
+        "link_anh" : 
+        "./images/album/IMG_2898.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_1028.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_9100.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_2900.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/0K9A7044 2.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/0K9A7387 2.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/0K9A7390 2.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/0K9A8228 2.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/0K9A8628.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_9840.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_2894.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_9135.JPG" 
+    }
     
 ]
 
