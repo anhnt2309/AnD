@@ -77,11 +77,11 @@ var album = [
     },
     {
         "link_anh" : 
-        "./images/album/IMG_2869 2.JPG" 
+        "./images/album/IMG_2898.JPG" 
     },
     {
         "link_anh" : 
-        "./images/album/IMG_2898.JPG" 
+        "./images/album/IMG_2869 2.JPG" 
     },
     {
         "link_anh" : 
@@ -101,11 +101,11 @@ var album = [
     },
     {
         "link_anh" : 
-        "./images/album/IMG_9834.JPG" 
+        "./images/album/IMG_9838.JPG" 
     },
     {
         "link_anh" : 
-        "./images/album/IMG_9838.JPG" 
+        "./images/album/IMG_9834.JPG" 
     },
     {
         "link_anh" : 
@@ -130,6 +130,10 @@ var album = [
     {
         "link_anh" : 
         "./images/album/IMG_9135.JPG" 
+    },
+    {
+        "link_anh" : 
+        "./images/album/IMG_9134.JPG" 
     }
     
 ]
